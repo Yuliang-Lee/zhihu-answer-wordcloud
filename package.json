@@ -1,0 +1,45 @@
+{
+  "name": "zhihu-answer-wordcloud",
+  "version": "0.1.0",
+  "description": "知乎问题热门回答词云",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1;export HIGHCHARTS_VERSION=7.1.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "zhwc": "./bin/zhwc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuliang-Lee/zhihu-answer-wordcloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yuliang-Lee/zhihu-answer-wordcloud/issues"
+  },
+  "homepage": "https://github.com/Yuliang-Lee/zhihu-answer-wordcloud#readme",
+  "author": "xlaoyu <frank_yll@163.com>",
+  "license": "MIT",
+  "keywords": [
+    "zhihu",
+    "word",
+    "cloud"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "highcharts-export-server": "^2.0.24",
+    "htmlparser2": "^3.10.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0",
+    "nodejieba": "2.3.1",
+    "ora": "^3.4.0",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.4.1"
+  },
+  "engines": {
+    "node": ">=8.0.0 and < 11.0.0"
+  }
+}
